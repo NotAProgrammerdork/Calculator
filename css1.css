@@ -1,0 +1,79 @@
+body {
+    font-family: consolas;
+    font-weight: bolder;
+    color: #ded7c4;
+    cursor: default;
+}
+
+div#calculator {
+    background-color: gray;
+    height: 305px;
+    width: 270px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#display {
+    border: 5px solid darkgray;
+    height: 285px;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+div#output {
+    width: 240px;
+    height: 75px;
+    margin: 10px 5px 15px 5px;
+    background-color: #333333;
+    text-align: right;
+}
+
+p#sop {
+    margin: 0;
+    padding: 15px;
+}
+
+div#ce {
+    position: absolute;
+    height: 15px;
+    width: 30px;
+    background-color: #666688;
+    border: 3px solid #222222;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#keyboard {
+    height: 170px;
+    width: 240px;
+    margin: 0 5px 20px 5px;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+div#keyboard > div {
+    grid-area: auto;
+    border: 3px solid #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.gray {
+    background-color: #333333;
+}
+
+div.op {
+    background-color: crimson;
+}
+
+div#eq {
+    background-color: #555500;
+}
