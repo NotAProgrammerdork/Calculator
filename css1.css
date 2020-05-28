@@ -3,6 +3,8 @@ body {
     font-weight: bolder;
     color: #ded7c4;
     cursor: default;
+    background: #ffffff url('background.jpg') no-repeat center;
+    background-size: cover;
 }
 
 div#calculator {
@@ -13,6 +15,7 @@ div#calculator {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 div#display {
